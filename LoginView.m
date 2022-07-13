@@ -84,12 +84,6 @@
     [_btn1 setFrame:CGRectMake(95, 506, 16, 16)];
     [_btn1 setBackgroundImage:[UIImage imageNamed:@"308"] forState:UIControlStateNormal];
     [self addSubview:_btn1];
-    
-    _btn2 = [UIButton buttonWithType:UIButtonTypeCustom];
-    [_btn2 setFrame:CGRectMake(110, 585, 172, 39)];
-    [_btn2 setBackgroundImage:[UIImage imageNamed:@"312"] forState:UIControlStateNormal];
-    [self addSubview:_btn2];
-    
 }
 
 @end
